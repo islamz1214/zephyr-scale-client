@@ -1,0 +1,29 @@
+{
+  "name": "zephyr-scale-client",
+  "version": "0.1.0",
+  "description": "Minimal JavaScript client for Zephyr Scale (Cloud) REST API. ESM, Node >=18.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "zephyr",
+    "zephyr-scale",
+    "jira",
+    "test-management",
+    "api-client",
+    "sdk",
+    "qa",
+    "sdet"
+  ],
+  "author": "Zahid",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test",
+    "examples": "node examples/fetch-cases.js"
+  },
+  "dependencies": {}
+}
